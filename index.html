@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST JS</title>
+</head>
+<body>
+    <script>
+        const numero_gatti= 33;
+        const gatti_per_fila= 5;
+        const numero_file= Math.floor(numero_gatti/gatti_per_fila);
+        const gatti_in_fila= gatti_per_fila*numero_file;
+        const gatti_avanzanti= numero_gatti-gatti_in_fila
+        const gatti_completamento_fila= gatti_per_fila-gatti_avanzanti
+        console.log(`Ci sono ${numero_file} file di gatti e ne mancano ${gatti_completamento_fila} per una nuova fila, con un avanzo di ${gatti_avanzanti}`);
+    </script>
+</body>
+</html>
